@@ -31,4 +31,22 @@ It's the condition when the recursion ends. **This is the most important concept
 - Base case
 - Different input(?)
 
-[**Example**](example)
+[**Examples**](example):
+- Count Down
+- Sum Range
+
+Where things go wrong?
+- When you don't have a base case, which means it's a infinite loop.
+- Forgetting to return or returning the wrong thing!
+- Both things lead to a stack overflow.
+
+Helper method recursion
+it's a pattern that has a function that it's not recursive which invoke a recursive function. See [examples](example)
+
+Pure recursion
+Following the previuos example, in this case the job that the helper does it's replace by the array method `concat`.
+
+To keep in mind;
+- When use arrays in pure recursion, use methods like `slice`, `the spread operator`, and `concat` that make copies of arrays so you do not mutate them.
+- Strings are immutable so you will need to use methods like `slice`, `substr` or `substring` to make copies of strings
+- When are objects you can use `Object.assign` or `the spread operator`
