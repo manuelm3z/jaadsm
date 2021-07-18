@@ -1,8 +1,8 @@
 # JavaScript Algorithms and Data Structures Masterclass
 
 ## Ultima clase vista: 
-- Carpeta: 10. Searching Algorithms
-- Video: 13. Naive String Search Implementation
+- Carpeta: 12. Selection Sort
+- Video: 4. Selection Sort Big O Complexity
 
 [**Problem Solving Strategies**](problem-solving-strategies/README.md)
 
@@ -11,3 +11,7 @@
 [**Recursion**](recursion/README.md)
 
 [**Searching Algorithms**](searching-algorithms/README.md)
+
+[**Bubble Sort**](bubble-sort/README.md)
+
+[**Selection Sort**](selection-sort/README.md)
