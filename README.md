@@ -12,6 +12,4 @@
 
 [**Searching Algorithms**](searching-algorithms/README.md)
 
-[**Bubble Sort**](bubble-sort/README.md)
-
-[**Selection Sort**](selection-sort/README.md)
+[**Sorting Algorithms**](sorting-algorithms/README.md)
